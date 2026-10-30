@@ -27,14 +27,14 @@
 <img width="993" height="617" alt="image" src="https://github.com/user-attachments/assets/81e43ae3-c8cf-4377-bc8b-01509d1866d9" />
 
 ### HƯỚNG DẪN CÀI ĐẶT VÀ CHẠY DỰ ÁN:
-### Khởi tạo CSDL:
+ Khởi tạo CSDL:
 
-### Mở file Database.sql có sẵn trong thư mục dự án bằng SQL Server Management Studio (SSMS) hoặc Visual Studio.
-     #Chạy toàn bộ script (Execute) để tự động tạo CSDL CafePOSDB cùng các bảng và dữ liệu mẫu.
-     #Cấu hình chuỗi kết nối:
+ Mở file Database.sql có sẵn trong thư mục dự án bằng SQL Server Management Studio (SSMS) hoặc Visual Studio.
+     Chạy toàn bộ script (Execute) để tự động tạo CSDL CafePOSDB cùng các bảng và dữ liệu mẫu.
+     Cấu hình chuỗi kết nối:
 
-### Mở file DBConnect.cs.
-     #Kiểm tra và đổi lại Data Source cho khớp với tên SQL Server trên máy chấm (Mặc định đang để kết nối tới (localdb)\MSSQLLocalDB).
-     #Chạy chương trình:
+ Mở file DBConnect.cs.
+     Kiểm tra và đổi lại Data Source cho khớp với tên SQL Server trên máy chấm (Mặc định đang để kết nối tới (localdb)\MSSQLLocalDB).
+     Chạy chương trình:
 
-### Nhấn F5 (hoặc nút Start) trên Visual Studio để chạy hệ thống.
+ Nhấn F5 (hoặc nút Start) trên Visual Studio để chạy hệ thống.
